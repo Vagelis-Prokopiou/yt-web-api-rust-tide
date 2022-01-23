@@ -1,0 +1,17 @@
+[package]
+name = "api_tide"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.56"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "api_tide"
+
+[dependencies]
+tide = "0.16.0"
+async-std = { version = "1", features = ["attributes"] }
+serde = { version = "1", features = ["derive"] }
