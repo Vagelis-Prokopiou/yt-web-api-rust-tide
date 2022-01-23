@@ -1,6 +1,3 @@
-use tide::prelude::*;
-use tide::Request;
-
 use api_tide::get_users;
 
 #[async_std::main]

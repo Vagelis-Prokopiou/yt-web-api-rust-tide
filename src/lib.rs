@@ -12,7 +12,7 @@ pub async fn get_users() -> tide::http::Result<Body> {
             Age: 25,
             First_Name: format!("First_Name{}", index),
             Last_Name: format!("Last_Name{}", index),
-            Framework: "Rust (Axum)".to_owned(),
+            Framework: "Rust (tide)".to_owned(),
         })
     }
     Body::from_json(&users)
