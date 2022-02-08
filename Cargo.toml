@@ -12,6 +12,6 @@ path = "src/main.rs"
 name = "api_tide"
 
 [dependencies]
-tide = "0.16.0"
+tide = "0"
 async-std = { version = "1", features = ["attributes"] }
 serde = { version = "1", features = ["derive"] }
